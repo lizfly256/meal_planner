@@ -111,7 +111,7 @@ recipes: list[dict[str, str | dict[str, float]] | dict[str, str | dict[str, floa
     },
     {
         'name': 'Creamy Basil Pesto Chicken Pasta',
-        'ingredients': {'basil pesto (oz)': 2, 'red pepper flakes (tsp)': 0.25, 'cream cheese (oz)': 1, 'chicken stock concentrate': 1, 'grated parmesan (oz)': 2, 'cooked chicken breast (oz)': 16, 'cream sauce base (oz)': 4, 'grape tomatoes (oz)': 4, 'penne pasta (oz)': 5},
+        'ingredients': {'basil pesto (oz)': 2, 'red pepper flakes (tsp)': 0.25, 'cream cheese (oz)': 1, 'chicken stock concentrate': 1, 'grated parmesan (oz)': 2, 'cooked chicken breast (#)': 1, 'cream sauce base (oz)': 4, 'grape tomatoes (oz)': 4, 'penne pasta (oz)': 5},
         'instructions': 'pg 23'
     },
     {
@@ -186,7 +186,7 @@ recipes: list[dict[str, str | dict[str, float]] | dict[str, str | dict[str, floa
     },
     {
         'name': 'Hot Honey Chicken',
-        'ingredients': {'yukon gold potato (oz)': 10, 'panko (c)': 0.5, 'sweet and smokey bbq seasoning (tbsp)': 1, 'chicken breast (oz)': 12, 'sour cream (oz)': 2, 'side green': 1, 'hot honey (oz)': 0.75},
+        'ingredients': {'yukon gold potato (oz)': 10, 'panko (c)': 0.5, 'sweet and smokey bbq seasoning (tbsp)': 1, 'chicken breast (#)': 0.75, 'sour cream (oz)': 2, 'side green': 1, 'hot honey (oz)': 0.75},
         'instructions': 'pg 38'
     },
     {
