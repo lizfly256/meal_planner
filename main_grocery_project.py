@@ -1,5 +1,6 @@
 from meal_list import recipes
 from meal_list import sections
+from recipe_instructions import instructions
 import random
 
 
@@ -7,7 +8,7 @@ def random_menu(num_of_meals):
     """Returns a certain number of randomly selected meals"""
     i = 0
     num_list = list()
-    menu = list()
+    menu = dict()
     groceries = {}
     while len(menu) < num_of_meals:
         num = random.randint(0, len(recipes) - 1)
@@ -15,7 +16,8 @@ def random_menu(num_of_meals):
         num_list.append(num)
         # Adds meal to menu
         new_meal = recipes[num]['name']
-        menu.append(new_meal)
+        instructions_location = recipes[num]['instructions']
+        menu[new_meal] = instructions_location
         # Adds ingredients to grocery list
         new_ingredients = recipes[num]['ingredients']
         for k, v in new_ingredients.items():
@@ -109,12 +111,20 @@ def itemize_ingredients():
 x = random_menu(3)
 menu = x[0]
 groceries = x[1]
-print(menu)
+for k in menu:
+    print(k, menu[k])
+#print(menu)
 sorted_list= sort_groceries(groceries)
+print('-------------------------------\nGrocery List')
 print('PANTRY-- ', sorted_list['PANTRY'])
 print('DAIRY-- ', sorted_list['DAIRY'])
 print('MEAT-- ', sorted_list['MEAT'])
 print('PRODUCE-- ', sorted_list['PRODUCE'])
 print('OTHER-- ', sorted_list['OTHER'])
+print('-------------------------------\nInstructions')
+for k in menu:
+    instructions = menu[k]
+    #print('Prep -- ' + instructions['prep'])
+
 
 #itemize_ingredients()
