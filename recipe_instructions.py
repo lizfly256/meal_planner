@@ -26,33 +26,93 @@ def instruction_setup():
         instructions[instruction_location] = meal_dict
     print(instructions)
 
-instruction_setup()
+#instruction_setup()
 
 instructions = {
     'pg 1': {
-        'ingredients': {'potato (oz)': 12, 'garlic clove': 2, 'yellow onion': 1, 'ground beef (#)': 0.6, 'shredded monty jack (oz)': 4, 'potato bun': 2, 'creamy horseradish sauce (tbsp)': 2},
-        'prep': {'potato (oz)': 'see cookbook', 'garlic clove': 'see cookbook', 'yellow onion': 'see cookbook', 'ground beef (#)': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook', 'potato bun': 'see cookbook', 'creamy horseradish sauce (tbsp)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'potato (oz)': 12, 'garlic clove': 2, 'red onion': 1, 'ground beef (#)': 0.6, 'shredded monty jack (oz)': 4, 'potato bun': 2, 'creamy horseradish sauce (tbsp)': 2, 'balsamic vinegar (tsp)': 5},
+        'prep': {'potato (oz)': '1/2 inch wedges', 'garlic clove': 'mince', 'red onion': 'Halve, thinly slice'},
+        'directions': """1.
+        Set oven to 425, do prep if needed.
+        2.
+        Toss potatoes on baking sheet with a drizzle of oil and fry seasoning, salt and pepper. Roast on top rack 20-25 min
+        3.
+        Heat a drizzle of oil in a large pan. Add onion and cook until brown and softened. Stir in vinegar & 1 tsp sugar and caramelize. Set aside in small bowl.
+        4.
+        In a small bowl, 2 tsp combine mayo and a pinch of minced garlic. Season with salt and pepper.
+        5.
+        Shape beef into patties and season (at least w/ salt and pepper). Cook patties in pan /drizzle of oil heated on med-high. Towards the last 1-2 min of cooking, top with cheese and cover pan.
+        6.
+        Halve and toast buns, spread with garlis mayo and ketchup. Fill with patty and onion jam, serve potatoes on the side.
+        """
     },
     'pg 2': {
         'ingredients': {'lime': 1, 'garlic clove': 2, 'peanuts (oz)': 3, 'coleslaw mix (oz)': 6, 'sour cream (oz)': 2, 'ground pork (#)': 0.6, 'sweet thai chili sauce (oz)': 1, 'ponzu sauce (oz)': 2, 'cornstarch (tbsp)': 1, 'taco tortillas': 6},
-        'prep': {'lime': 'see cookbook', 'garlic clove': 'see cookbook', 'peanuts (oz)': 'see cookbook', 'coleslaw mix (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'ground pork (#)': 'see cookbook', 'sweet thai chili sauce (oz)': 'see cookbook', 'ponzu sauce (oz)': 'see cookbook', 'cornstarch (tbsp)': 'see cookbook', 'taco tortillas': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'lime': 'quarter', 'garlic clove': 'finely chop', 'peanuts (oz)': 'roughly chop'},
+        'directions': """1.
+        Prep if needed
+        2.
+        In small bowl, combin juice from half the lime, 1/2 tsp sugar, a lil salt, and 1/4 of the coleslaw mix.
+        In a separate small bowl combine sour cream, pinch of garlic, (optional lime zest), a lil salt and pepper. Add water 1 tsp at a time until the sauce is a drizzling consistency.
+        3.
+        Cook port in a pan with a drizzle of oil heated on med-high. Once browned, add salt and pepper and remaining cabbage and garlic. Cook until cabbage is wilted and pork cooked through.
+        4.
+        Add chili sauce, ponzu, 2tsp cornstarch, 1/3 c water to pork. Cook and stir until thickened (2-3 min).
+        5.
+        Meanwhile, warm tortillas (wrap in damp paper towel and microwave 30 seconds.)
+        divide pork mixture into tortillas, top w/ cabbage slaw, crema, and peanuts
+        
+        https://www.everyplate.com/recipes/sweet-chili-pork-tacos-60e8549b73705e09bf60c296
+        """
     },
     'pg 3': {
         'ingredients': {'garlic clove': 2, 'chicken sausage (#)': 0.6, 'rigatoni (oz)': 6, 'peas (oz)': 10, 'cream sauce base (oz)': 4, 'mushroom stock concentrate': 1, 'garlic powder (tbsp)': 1},
-        'prep': {'garlic clove': 'see cookbook', 'chicken sausage (#)': 'see cookbook', 'rigatoni (oz)': 'see cookbook', 'peas (oz)': 'see cookbook', 'cream sauce base (oz)': 'see cookbook', 'mushroom stock concentrate': 'see cookbook', 'garlic powder (tbsp)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'garlic clove': 'mince', },
+        'directions': """1.  *****NOT DONE****
+        Boil large pot of water. prep if needed
+        """
     },
     'pg 4': {
-        'ingredients': {'carrot (oz)': 12, 'side green': 1, 'shallot': 1, 'chicken breast (#)': 2, 'chicken stock concentrate': 1, 'dijon mustard (tbsp)': 1, 'apricot jam (tbsp)': 2},
-        'prep': {'carrot (oz)': 'see cookbook', 'side green': 'see cookbook', 'shallot': 'see cookbook', 'chicken breast (#)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'dijon mustard (tbsp)': 'see cookbook', 'apricot jam (tbsp)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'carrot (oz)': 12, 'side green': 1, 'shallot': 0.5, 'chicken breast (#)': 2, 'chicken stock concentrate': 1, 'dijon mustard (tbsp)': 1, 'apricot jam (tbsp)': 2},
+        'prep': {'carrot (oz)': 'Cut in 1/2 inch slices', 'side green': 'prep if needed', 'shallot': 'finely chop'},
+        'directions': """1.
+        Heat oven to 425. Prep if needed.
+        2.
+        Toss carrots on one side of baking sheet (otherside for side green if needed). Drizzle with oil, salt and pepper. Roast 20-25 minute.
+        3.
+        place chicken between 2 peices of plastic wrap ad pound with mallet until about 1/3 inch.
+        Place 1/4 c flour in shallow disk, press chickin into flour until fully coated.
+        Heat 2 tbsp oil in large pan over med-high heat. Add chicken, cook till golden brown and cooked through, then transfer to paper-towel-lined plate.
+        4.
+        In same pan, heat a drizzle of oil. Add shallot and cook 3-4 min. Whist in stock concentrate, mustard, jam, 1/4c water. Simmer 1-2 min until reduced to a glossy sauce.
+        5.
+        Turn chicken in sauce to coat, then transfer to cutting board and slice. Plate chicken and sides and spoon remaining sauce over chicken.
+        
+        https://www.everyplate.com/recipes/apricot-dijon-chicken-6563fe9cac1dddb9ab0e9dab
+        
+        """
     },
     'pg 5': {
         'ingredients': {'garlic pepper (tsp)': 0.24, 'scallion': 2, 'mushroom seasoning (tsp)': 2, 'shredded cheddar cheese (oz)': 1, 'yukon potato (oz)': 12, 'mirepoix stock concentrate (tsp)': 2, 'cream cheese (oz)': 1, 'steak strips (oz)': 10},
-        'prep': {'garlic pepper (tsp)': 'see cookbook', 'scallion': 'see cookbook', 'mushroom seasoning (tsp)': 'see cookbook', 'shredded cheddar cheese (oz)': 'see cookbook', 'yukon potato (oz)': 'see cookbook', 'mirepoix stock concentrate (tsp)': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'steak strips (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'scallion': 'thinly sliced','yukon potato (oz)': '1/2 inch wedges'},
+        'directions': """1.
+        Heat oven to 425. Prep if needed, keep scallions whites and greens separate
+        2.
+        Toss potatoes with a drizzle of oil and half mushroom seasoning onto baking sheet. Roast 25-30 min.
+        Coursely chop steak strips
+        3.
+        Toast buns in large pan with 1tsp of oil by placing them cut side down 2-3 min.
+        4.
+        Once buns are done, add 1stp oil to pan with scallion white, steak strips, and garlic pepper. Cook through.
+        Add mirepoix base and 1 tbsp water. Stir occasionally until combined, then set aside to rest.
+        5.
+        Heat med pan on med-low. Add cream cheese and 1/4 c water until fully melted. Add shredded cheese and salt.
+        6.
+        Plate: bottom bun topped with steak strips then cheese sauce then scallion greens.
+        
+        https://www.homechef.com/meals/beef-cheddar-melt?srsltid=AfmBOopkZmprulBIMUggYrAZnwy_o5TAq0aEqh6RMfke_Aso3zdCSdfj
+        
+        """
     },
     'pg 6': {
         'ingredients': {'red pepper flakes (tsp)': 0.25, 'garlic salt (tsp)': 0.5, 'butter (tbsp)': 1, 'sour cream (oz)': 2, 'russet potato (oz)': 10, 'side green': 1, 'bbq spice rub (tsp)': 1, 'boneless pork chop': 2},
@@ -124,7 +184,7 @@ instructions = {
         'prep': {'enchilada sauce (oz)': 'see cookbook', 'corn (oz)': 'see cookbook', 'black bean can (oz)': 'see cookbook', 'jalapeno': 'see cookbook', 'red onion': 'see cookbook', 'pablano': 'see cookbook', 'taco seasoning (tsp)': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded white cheddar cheese (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
         'directions': 'see cookbook'
     },
-    'R': {
+    'R1': {
         'ingredients': {'cream of chicken soup (can)': 1, 'tuna in water canned': 1, 'peas (oz)': 10, 'egg noodles': 1},
         'prep': {'cream of chicken soup (can)': 'see cookbook', 'tuna in water canned': 'see cookbook', 'peas (oz)': 'see cookbook', 'egg noodles': 'see cookbook'},
         'directions': 'see cookbook'
@@ -288,3 +348,4 @@ instructions = {
         'directions': 'see cookbook'
     }
 }
+
