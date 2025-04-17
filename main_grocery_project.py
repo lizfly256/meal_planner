@@ -1,5 +1,6 @@
 from meal_list import recipes
 from meal_list import sections
+from recipe_instructions import instructions
 import random
 
 
@@ -7,7 +8,7 @@ def random_menu(num_of_meals):
     """Returns a certain number of randomly selected meals"""
     i = 0
     num_list = list()
-    menu = list()
+    menu = dict()
     groceries = {}
     while len(menu) < num_of_meals:
         num = random.randint(0, len(recipes) - 1)
@@ -15,7 +16,8 @@ def random_menu(num_of_meals):
         num_list.append(num)
         # Adds meal to menu
         new_meal = recipes[num]['name']
-        menu.append(new_meal)
+        instructions_location = recipes[num]['instructions']
+        menu[new_meal] = instructions_location
         # Adds ingredients to grocery list
         new_ingredients = recipes[num]['ingredients']
         for k, v in new_ingredients.items():
@@ -26,7 +28,7 @@ def random_menu(num_of_meals):
 
 
 def sort_groceries(groceries):
-    """ Returns a grocery list sorted by section of the store based on whole grocery list"""
+    """Returns a grocery list sorted by section of the store based on whole grocery list"""
     # pantry, dairy, meat, produce, bakery, other
     pantry = dict()
     dairy = dict()
@@ -54,7 +56,7 @@ def sort_groceries(groceries):
 
 
 def check_pantry(name):
-    """ Returns True if item is in produce section, otherwise False"""
+    """Returns True if item is in produce section, otherwise False"""
     for k in sections['pantry']:
         if k in name:
             return True
@@ -62,7 +64,7 @@ def check_pantry(name):
 
 
 def check_dairy(name):
-    """ Returns True if item is in dairy section, otherwise False"""
+    """Returns True if item is in dairy section, otherwise False"""
     for k in sections['dairy']:
         if k in name:
             return True
@@ -70,14 +72,14 @@ def check_dairy(name):
 
 
 def check_meat(name):
-    """ Returns True if item is in meat section, otherwise False"""
+    """Returns True if item is in meat section, otherwise False"""
     for k in sections['meat']:
         if k in name:
             return True
     return False
 
 def check_produce(name):
-    """ Returns True if item is in produce section, otherwise False"""
+    """Returns True if item is in produce section, otherwise False"""
     for k in sections['produce']:
         if k in name:
             return True
@@ -109,12 +111,24 @@ def itemize_ingredients():
 x = random_menu(3)
 menu = x[0]
 groceries = x[1]
-print(menu)
+for k in menu:
+    print(k, menu[k])
+#print(menu)
 sorted_list= sort_groceries(groceries)
+print('-------------------------------\n\nGrocery List')
 print('PANTRY-- ', sorted_list['PANTRY'])
 print('DAIRY-- ', sorted_list['DAIRY'])
 print('MEAT-- ', sorted_list['MEAT'])
 print('PRODUCE-- ', sorted_list['PRODUCE'])
 print('OTHER-- ', sorted_list['OTHER'])
+print('-------------------------------\n\nInstructions')
+for k in menu:
+    instructions_location = menu[k]
+    print('\n' + k)
+    print('Prep -- ')
+    print(instructions[instructions_location]['prep'])
+    print('Directions --')
+    print(instructions[instructions_location]['directions'])
+    
 
 #itemize_ingredients()
