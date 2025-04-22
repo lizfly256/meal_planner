@@ -1,4 +1,4 @@
-recipes: list[dict[str, str | dict[str, float]] | dict[str, str | dict[str, float | int]] | dict[str, str | dict[str, float | int]] | dict[str, str | dict[str, float]] | dict[str, str | dict[str, int]] | dict[str, str | dict[str, float | int]]] = [
+recipes = [
     {
         'name': 'Monty Jack Burgers',
         'ingredients': {'potato (oz)': 12, 'garlic clove': 2, 'yellow onion': 1, 'ground beef (#)': 0.6, 'shredded monty jack (oz)': 4, 'potato bun': 2, 'creamy horseradish sauce (tbsp)': 2},
