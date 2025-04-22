@@ -264,7 +264,7 @@ recipes: list[dict[str, str | dict[str, float]] | dict[str, str | dict[str, floa
 
 
 sections = {
-    'pantry': ['can', 'canned', 'rigatoni', 'noodle','capers', 'salsa', 'sriracha', 'concentrate', 'box', 'jar', 'powder', 'garlic pepper', 'mustard', 'spice', 'pepper flakes', 'pesto',  'guacamole', 'starch', 'vinegar', 'flour', ' oat ', 'paste', 'rice', 'tortilla', 'soup', 'stock', 'pantry', 'peanut', 'jam', 'sauce', 'seasoning', 'salt', 'panko', 'pasta'],
+    'pantry': ['can', 'canned', 'rigatoni', 'noodle','capers', 'fettuccine', 'salsa', 'sriracha', 'concentrate', 'box', 'jar', 'powder', 'garlic pepper', 'mustard', 'spice', 'pepper flakes', 'pesto',  'guacamole', 'starch', 'vinegar', 'flour', ' oat ', 'paste', 'rice', 'tortilla', 'soup', 'stock', 'pantry', 'peanut', 'jam', 'sauce', 'seasoning', 'salt', 'panko', 'pasta'],
     'bakery': ['bread', 'bun', 'loaf', 'roll', 'ciabatta'],
     'dairy': ['butter', 'milk', 'cheese', 'cream', 'milk', 'mozzarella', 'parmesan', 'jack', 'cheddar'],
     'meat': ['sausage', 'steak', 'meat', 'beef', 'chicken', 'turkey', 'pork', 'bacon', 'steak', 'brats'],
