@@ -36,7 +36,7 @@ recipes = [
     },
     {
         'name': 'Crispy Black Bean Burritos',
-        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'tex-mex paste (oz)': 1, 'jasmine rice': 1, 'black bean can (oz)': 10, 'cream cheese (oz)': 1, 'burrito tortilla': 2, 'guacamole': 1},
+        'ingredients': {'roma tomato': 1, 'yellow onion': 0.5, 'lime': 0.5, 'tex-mex paste (oz)': 1, 'jasmine rice': 1, 'black bean can (oz)': 10, 'cream cheese (oz)': 1, 'burrito tortilla': 2, 'guacamole': 1},
         'instructions': 'pg 8'
     },
     {
@@ -97,7 +97,7 @@ recipes = [
     {
         'name': 'tuna fish casserole',
         'ingredients': {'cream of chicken soup (can)': 1, 'tuna in water canned': 1, 'peas (oz)': 10, 'egg noodles': 1},
-        'instructions': 'R'
+        'instructions': 'R_1'
     },
     {
         'name': 'Turkey Shepherds Pie',
@@ -264,13 +264,12 @@ recipes = [
 
 
 sections = {
-    'pantry': ['can', 'canned', 'rigatoni', 'noodle','capers', 'fettuccine', 'salsa', 'sriracha', 'concentrate', 'box', 'jar', 'powder', 'garlic pepper', 'mustard', 'spice', 'pepper flakes', 'pesto',  'guacamole', 'starch', 'vinegar', 'flour', ' oat ', 'paste', 'rice', 'tortilla', 'soup', 'stock', 'pantry', 'peanut', 'jam', 'sauce', 'seasoning', 'salt', 'panko', 'pasta'],
+    'pantry': ['can', 'canned', 'rigatoni', 'noodle','capers', 'salsa', 'sriracha', 'concentrate', 'box', 'jar', 'powder', 'garlic pepper', 'mustard', 'spice', 'pepper flakes', 'pesto',  'guacamole', 'starch', 'vinegar', 'flour', ' oat ', 'paste', 'rice', 'tortilla', 'soup', 'stock', 'pantry', 'peanut', 'jam', 'sauce', 'seasoning', 'salt', 'panko', 'pasta'],
     'bakery': ['bread', 'bun', 'loaf', 'roll', 'ciabatta'],
     'dairy': ['butter', 'milk', 'cheese', 'cream', 'milk', 'mozzarella', 'parmesan', 'jack', 'cheddar'],
     'meat': ['sausage', 'steak', 'meat', 'beef', 'chicken', 'turkey', 'pork', 'bacon', 'steak', 'brats'],
     'produce': ['onion', 'potato', 'green', 'celery', 'pepper', 'kale', 'pablano', 'carrot', 'jalapeno', 'lettus', 'lime', 'coleslaw', 'tomato', 'cabbage', 'cucumber', 'shallot', 'scallion', 'spinach', 'clove'],
 }
-
 
 
 
