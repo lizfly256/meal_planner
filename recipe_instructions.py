@@ -32,7 +32,8 @@ instructions = {
     'pg 1': {
         'ingredients': {'potato (oz)': 12, 'garlic clove': 2, 'red onion': 1, 'ground beef (#)': 0.6, 'shredded monty jack (oz)': 4, 'potato bun': 2, 'creamy horseradish sauce (tbsp)': 2, 'balsamic vinegar (tsp)': 5},
         'prep': {'potato (oz)': '1/2 inch wedges', 'garlic clove': 'mince', 'red onion': 'Halve, thinly slice'},
-        'directions': """1.
+        'directions': """
+        1.
         Set oven to 425, do prep if needed.
         2.
         Toss potatoes on baking sheet with a drizzle of oil and fry seasoning, salt and pepper. Roast on top rack 20-25 min
@@ -49,7 +50,8 @@ instructions = {
     'pg 2': {
         'ingredients': {'lime': 1, 'garlic clove': 2, 'peanuts (oz)': 3, 'coleslaw mix (oz)': 6, 'sour cream (oz)': 2, 'ground pork (#)': 0.6, 'sweet thai chili sauce (oz)': 1, 'ponzu sauce (oz)': 2, 'cornstarch (tbsp)': 1, 'taco tortillas': 6},
         'prep': {'lime': 'quarter', 'garlic clove': 'finely chop', 'peanuts (oz)': 'roughly chop'},
-        'directions': """1.
+        'directions': """
+        1.
         Prep if needed
         2.
         In small bowl, combin juice from half the lime, 1/2 tsp sugar, a lil salt, and 1/4 of the coleslaw mix.
@@ -75,7 +77,8 @@ instructions = {
     'pg 4': {
         'ingredients': {'carrot (oz)': 12, 'side green': 1, 'shallot': 0.5, 'chicken breast (#)': 2, 'chicken stock concentrate': 1, 'dijon mustard (tbsp)': 1, 'apricot jam (tbsp)': 2},
         'prep': {'carrot (oz)': 'Cut in 1/2 inch slices', 'side green': 'prep if needed', 'shallot': 'finely chop'},
-        'directions': """1.
+        'directions': """
+        1.
         Heat oven to 425. Prep if needed.
         2.
         Toss carrots on one side of baking sheet (otherside for side green if needed). Drizzle with oil, salt and pepper. Roast 20-25 minute.
@@ -95,7 +98,8 @@ instructions = {
     'pg 5': {
         'ingredients': {'garlic pepper (tsp)': 0.24, 'scallion': 2, 'mushroom seasoning (tsp)': 2, 'shredded cheddar cheese (oz)': 1, 'yukon potato (oz)': 12, 'mirepoix stock concentrate (tsp)': 2, 'cream cheese (oz)': 1, 'steak strips (oz)': 10},
         'prep': {'scallion': 'thinly sliced','yukon potato (oz)': '1/2 inch wedges'},
-        'directions': """1.
+        'directions': """
+        1.
         Heat oven to 425. Prep if needed, keep scallions whites and greens separate
         2.
         Toss potatoes with a drizzle of oil and half mushroom seasoning onto baking sheet. Roast 25-30 min.
@@ -116,58 +120,187 @@ instructions = {
     },
     'pg 6': {
         'ingredients': {'red pepper flakes (tsp)': 0.25, 'garlic salt (tsp)': 0.5, 'butter (tbsp)': 1, 'sour cream (oz)': 2, 'russet potato (oz)': 10, 'side green': 1, 'bbq spice rub (tsp)': 1, 'boneless pork chop': 2},
-        'prep': {'red pepper flakes (tsp)': 'see cookbook', 'garlic salt (tsp)': 'see cookbook', 'butter (tbsp)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'russet potato (oz)': 'see cookbook', 'side green': 'see cookbook', 'bbq spice rub (tsp)': 'see cookbook', 'boneless pork chop': 'see cookbook'},
+        'prep': {'sour cream (oz)': 'see cookbook', 'russet potato (oz)': 'see cookbook', 'side green': 'see cookbook', 'boneless pork chop': 'see cookbook'},
         'directions': 'see cookbook'
     },
     'pg 7': {
         'ingredients': {'peas (oz)': 10, 'red pepper flakes (tsp)': 0.25, 'cream cheese (oz)': 1, 'scallion': 2, 'goat cheese (oz)': 1, 'grated parmesan (oz)': 0.5, 'penne pasta (oz)': 5, 'flour (oz)': 0.25, 'marinara sauce (oz)': 4, 'italian pork sausage (#)': 0.75},
-        'prep': {'peas (oz)': 'see cookbook', 'red pepper flakes (tsp)': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'scallion': 'see cookbook', 'goat cheese (oz)': 'see cookbook', 'grated parmesan (oz)': 'see cookbook', 'penne pasta (oz)': 'see cookbook', 'flour (oz)': 'see cookbook', 'marinara sauce (oz)': 'see cookbook', 'italian pork sausage (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'scallion': 'slice thinly, separate whites and greens','penne pasta (oz)': 'follow box directions',},
+        'directions': """
+        1.
+        Set medium pot of water on to boil. Prep if needed.
+        Save 1c pasta water when pasta is done
+        2.
+        Cook italian sausage and scallion whites in pan w/ lil oil heated on med-high heat.
+        3.
+        Make sauce-- Add flour to pan and stir into meat. Add 3/4 c pasta water, marinara, cream cheese, S&P.
+        Simmer 2-4 min until thickened (add extra pasta water if too thick).
+        4.
+        Stir in peas, S&P, pasta, and parmesan until cheese is melted. Remove from burner.
+        dish and top with scallion greens, and goat cheese crumbles, red pepper flakes.
+        
+        https://www.homechef.com/meals/creamy-tomato-and-italian-sausage-penne-0ed0e1ef-d781-4a79-a7a4-e8626faaff12?srsltid=AfmBOoqM-PXE3mPmbbMWzWrc8ycIE1Ikmxa9UWjfLjWDg1fa1zZ5wliY
+        
+        """
     },
     'pg 8': {
-        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'tex-mex paste (oz)': 1, 'jasmine rice': 1, 'black bean can (oz)': 10, 'cream cheese (oz)': 1, 'burrito tortilla': 2, 'guacamole': 1},
-        'prep': {'roma tomato': 'see cookbook', 'yellow onion': 'see cookbook', 'tex-mex paste (oz)': 'see cookbook', 'jasmine rice': 'see cookbook', 'black bean can (oz)': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'burrito tortilla': 'see cookbook', 'guacamole': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'roma tomato': 1, 'lime': 0.5, 'yellow onion': 0.5, 'tex-mex paste (oz)': 1, 'jasmine rice': 1, 'black bean can (oz)': 10, 'cream cheese (oz)': 1, 'burrito tortilla': 2, 'guacamole': 1},
+        'prep': {'roma tomato': 'Dice small', 'yellow onion': 'dice, divided', 'lime': 'quarter', 'guacamole': 'see cookbook'},
+        'directions': """
+        1.
+        Prep. Combine 2 TBSP diced onion, squeeze of lime, tomato, lil oil, S&P in small bowl.
+        2.
+        In sm pot, combine rice, half tex-mex paste, water (according to rice directions), salt.
+        Bring to a boil, cover, reduce to simmer. Cook according to directions, likely 18-20 min.
+        Cook beef in med pot over med-high heat. Set aside when done and wipe out pan.
+        3.
+        Heat lil oil in a med pot over med-high heat. Add remaining onion, S&P and brown.
+        Add beans AND their liquid, 1tbsp butter, heat till warmed through. Set aside and cover to keep warm.
+        4.
+        In same pot, meld 1 tbsp butter on med-high heat. Whisk in 1 tbsp flour, stirring till lightly browned.
+        whisk in cream cheese, 1/2 c water and Tex-Mex paste.
+        Cook until sauce has thickened and cream cheese is melted in.
+        5.
+        Drain beans. Fill tortilla with rice, beans, meat. Top with guac and roll up.
+        6.
+        Melt 1 tbsp butter in large pan over med-high heat. Add burritoes seam side down until crispy/golden.
+        Plate burritos, drizzle with Tex-Mex, garnish with pico (step 1), serve with remaining rice and beans.
+        
+        https://www.everyplate.com/recipes/crispy-beef-and-bean-burritos-64e4e440d47578530b7e6df4
+        
+        """
     },
     'pg 9': {
         'ingredients': {'ground beef (#)': 0.5, 'jasmine rice': 1, 'garlic clove': 3, 'carrot (oz)': 3, 'mini cucumber': 1, 'sriracha': 1, 'ponzu sauce (oz)': 4, 'lime': 1, 'yellow onion': 1, 'scallion': 1},
-        'prep': {'ground beef (#)': 'see cookbook', 'jasmine rice': 'see cookbook', 'garlic clove': 'see cookbook', 'carrot (oz)': 'see cookbook', 'mini cucumber': 'see cookbook', 'sriracha': 'see cookbook', 'ponzu sauce (oz)': 'see cookbook', 'lime': 'see cookbook', 'yellow onion': 'see cookbook', 'scallion': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'garlic clove': 'minced, divided', 'carrot (oz)': 'grated', 'mini cucumber': 'half slices', 'lime': 'quarter', 'yellow onion': 'diced', 'scallion': 'Slice thinley, keeping whites and greens separate'},
+        'directions': """
+        1.
+        Start rice according to directions (bring to boil, cover and reduce to simmer likely 15-20 min)
+        2.
+        Prep if needed while rice cooks
+        3.
+        In med bowl, combine cucumber, half lime juice, 1/4 tsp sugar, pinch of salt. Set aside to pickle.
+        In small bowl combine 2 TSBP mayo, squeeze of lime, pinch of garlic, sriracha according to taste, S&P.
+        4.
+        When rice has cooked 15 min, heat lil oil in a large pan over med/high heat. Add onion, scallion whites and cook a few minutes.
+        Add beef, remaining garlic, 2 tsp sugar and cook. Stir in ponzu and S&P according to taste.
+        5.
+        Fluff rice with a fork, stir in 1 TBSP butter lil salt. Divide between bowls top w/ beef, cucumbers, and carrot.
+        Top scallion greens and drizzle Sriracha aioli.
+        
+        https://www.hellofresh.com/recipes/sweet-umami-beef-bowls-67520f8f53225fdd9d2bd278
+        
+        """
     },
     'pg 10': {
         'ingredients': {'parsley bunch': 1, 'garlic clove': 1, 'potato (oz)': 12, 'sliced almonds (oz)': 1, 'ranch steak': 2, 'green beans (oz)': 12},
-        'prep': {'parsley bunch': 'see cookbook', 'garlic clove': 'see cookbook', 'potato (oz)': 'see cookbook', 'sliced almonds (oz)': 'see cookbook', 'ranch steak': 'see cookbook', 'green beans (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'parsley bunch': 'finely chopped', 'garlic clove': 'minced, divided', 'potato (oz)': 'sliced into 1/4 inch rounds'},
+        'directions': """
+        1.
+        Preheat oven to 450. Prep if needed.
+        Microwave 2 TBSP butter until softened, Stir in parlsey, pinch of salt, pinch of garlic.
+        2.
+        Toss potato rounds with 1 TBSP oil, S&P, spread evenly on baking sheet and raost about 20 min.
+        3.
+        Heat a large pan over med/high heat, Add almonds and cook until toasted (about 5-6 min)
+        4.
+        Season steak w/ S&P. Heat 1 TBSP oil in same pan as step 3.
+        Add steak and cook until browned and done to desired doneness. Transfer to cutting board to rest.
+        5.
+        Add green beans to same pan, cook on med, stirring until bright green (about 2 min).
+        Pour in 1/4 c water and cover pan. Let steam until tender (about 3 min). Season w/ S&P.
+        6.
+        Thinly slice steak against the grain. Divid steak, beans, potatoes between plates.
+        Sprinkly beans w/ almonds to taste. Dollop steak w/ butter mix, garnish w/ extra parsley.
+        
+        https://www.everyplate.com/recipes/week-31-hotel-butter-steak-5c9e3ea2c445fa5dd7138e32
+        
+        """
     },
     'pg 11': {
         'ingredients': {'pablano': 1, 'scallion': 1, 'garlic clove': 1, 'roma tomato': 1, 'cornstarch (tbsp)': 1, 'tex-mex paste (oz)': 1, 'southwest spice': 1, 'black bean can (oz)': 10, 'taco tortillas': 6, 'shredded monty jack (oz)': 3},
-        'prep': {'pablano': 'see cookbook', 'scallion': 'see cookbook', 'garlic clove': 'see cookbook', 'roma tomato': 'see cookbook', 'cornstarch (tbsp)': 'see cookbook', 'tex-mex paste (oz)': 'see cookbook', 'southwest spice': 'see cookbook', 'black bean can (oz)': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'pablano': 'halve and thinly slice', 'scallion': 'Thinly slice, keeping white and greens seperate', 'garlic clove': 'minced', 'roma tomato': 'dice 1/2 inch', 'black bean can (oz)': 'see cookbook'},
+        'directions': """
+        1.
+        Preaheat oven to 425. Prep if needed.
+        2.
+        In med bowl, whisk half cornstarch, half Tex-Mex paste, and 1/2 c hot water.
+        Mix until smooth, microwave  until thickened until consistency of gravy (30 sec). 
+        3.
+        Heat lil oil in large pan over med/high. Add pepper and cook 4-5 min. Add scallion whites and garlic, cook 1 min.
+        Add tomato, southwest spice, remaining Tex-Mex paste and stir to coat.
+        Add black beans AND their liquid, 1 tsp salt. Stir to combine and cook until beans are saucy (3-4 min).
+        4.
+        Place a small amount of fillinf on hald of each tortilla. Roll up starting with filled side and place seam side down in baking dish (8x8).
+        5.
+        Pour Tex-Mex sauce over enchiladas to thoroughly coat, sprinkly w/ cheese and bake until sauce is bubbling and cheese is melted (3-5 min)
+        6.
+        Plate enchiladas and top with scallions.
+        
+        https://www.hellofresh.com/recipes/spicy-tex-mex-black-bean-enchiladas-646b686512455b7f40092a92
+        
+        """
     },
     'pg 12': {
         'ingredients': {'roma tomato': 1, 'garlic clove': 2, 'linguine': 1, 'italian pork sausage (#)': 0.5, 'italian seasoning': 1, 'cream cheese (oz)': 1, 'chicken stock concentrate': 1, 'cream sauce base (oz)': 4, 'ciabatta': 1},
-        'prep': {'roma tomato': 'see cookbook', 'garlic clove': 'see cookbook', 'linguine': 'see cookbook', 'italian pork sausage (#)': 'see cookbook', 'italian seasoning': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'cream sauce base (oz)': 'see cookbook', 'ciabatta': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'roma tomato': '1/2 inch dice', 'garlic clove': 'mince'},
+        'directions': """
+        1.
+        Preheat oven to 425. Start a large pot of water to boil. Set out 1 TBSP butter to warm up.
+        prep if needed. Start on step 5 whenever you are waiting for something to heat/cook.
+        2.
+        Once water boild, add pasta and cook according to box directions (likely 9-11 min for al dente).
+        Reserve 1 c pasta water when draining.
+        3.
+        Cook sausage in pan heated w/ lil oil over med/high heat. Cook with tomato, half garlic, 2 tsp italian seasoning, S&P.
+        4.
+        Add 1 TBSP butter and 2 tsp flour, stir until mixed. Reduce heat to med and add cream cheese, cream sauce base (wing it if from scratch), 1/4 c pasta water, S&P.
+        Cook until thickened (1-2 min) **Good time to start step 5. You can add chili flakes now if you want it a little spicy.
+        Add drained pasta and toss until coated
+        5. Combine softened butter, remaining garlic, pinch of salt, 1/2 tsp italian seasoning in a small bowl.
+        Halve ciabatta, spread w/ butter mix, toast on top rack 3-5 min
+        6.
+        Halve garlic bread on diagonal. Divide pasta and bread between bowls.
+        
+        https://www.hellofresh.com/recipes/tomato-pork-sausage-linguine-643ea752abfb4b673a0e2119
+        
+        """
     },
     'pg 13': {
         'ingredients': {'chipotle pesto (tbsp)': 1, 'mirepoix stock concentrate (tsp)': 2, 'sour cream (oz)': 1, 'yellow onion': 0.5, 'pepper': 1, 'lime': 1, 'taco tortillas': 6, 'fajita seasoning (tsp)': 2, 'sliced pork (#)': 0.6},
-        'prep': {'chipotle pesto (tbsp)': 'see cookbook', 'mirepoix stock concentrate (tsp)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'yellow onion': 'see cookbook', 'pepper': 'see cookbook', 'lime': 'see cookbook', 'taco tortillas': 'see cookbook', 'fajita seasoning (tsp)': 'see cookbook', 'sliced pork (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'yellow onion': 'sliced', 'pepper': 'sliced', 'lime': 'quartered'},
+        'directions': """
+        
+        https://www.homechef.com/meals/sizzling-chipotle-pork-tacos?srsltid=AfmBOopEtLiZEpUgO0ooOLs4Jz2McUJMrhXQ5JzXMtJiQwk8zw04Hz3a
+        
+        """
     },
     'pg 14': {
         'ingredients': {'potato (oz)': 12, 'green beans (oz)': 12, 'garlic clove': 1, 'pork chop': 2, 'balsamic vinegar (oz)': 1, 'cherry jam (tbsp)': 3, 'chicken stock concentrate': 1, 'soy sauce (oz)': 1},
-        'prep': {'potato (oz)': 'see cookbook', 'green beans (oz)': 'see cookbook', 'garlic clove': 'see cookbook', 'pork chop': 'see cookbook', 'balsamic vinegar (oz)': 'see cookbook', 'cherry jam (tbsp)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'soy sauce (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'potato (oz)': '1/2 inch wedges', 'green beans (oz)': 'trimmed', 'garlic clove': 'minced'},
+        'directions': """
+        
+        https://www.hellofresh.com/recipes/saucy-cherry-balsamic-pork-chops-645134926a3fb8d2c704e72b
+        
+        """
     },
     'pg 21': {
         'ingredients': {'shredded mozzarella (oz)': 2, 'red pepper flakes (tsp)': 0.25, 'grated parmesan (oz)': 2, 'marinara sauce (oz)': 8, 'baby spinach (oz)': 5, 'bolognese meat sauce (oz)': 12, 'gemelli pasta (oz)': 6},
-        'prep': {'shredded mozzarella (oz)': 'see cookbook', 'red pepper flakes (tsp)': 'see cookbook', 'grated parmesan (oz)': 'see cookbook', 'marinara sauce (oz)': 'see cookbook', 'baby spinach (oz)': 'see cookbook', 'bolognese meat sauce (oz)': 'see cookbook', 'gemelli pasta (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'bolognese meat sauce (oz)': 'Make w/ sausage or ground meat of choice'},
+        'directions': """
+        
+        https://www.homechef.com/meals/lasagna-style-beef-and-pork-bolognese-gemelli?srsltid=AfmBOoqOtSuNQst_0QdxmgjsEX7AmUcxdjIFNQedDU2e9pGulJjGhfBn
+        
+        """
     },
     'pg 15': {
         'ingredients': {'garlic clove': 2, 'yellow onion': 1, 'celery stalk': 1, 'italian seasoning': 1, 'tomato paste (oz)': 2, 'chicken stock concentrate': 1, 'mushroom stock concentrate': 1, 'cream cheese (oz)': 1, 'ciabatta': 1, 'carrot (oz)': 3, 'italian pork sausage (#)': 0.4},
-        'prep': {'garlic clove': 'see cookbook', 'yellow onion': 'see cookbook', 'celery stalk': 'see cookbook', 'italian seasoning': 'see cookbook', 'tomato paste (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'mushroom stock concentrate': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'ciabatta': 'see cookbook', 'carrot (oz)': 'see cookbook', 'italian pork sausage (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'garlic clove': 'mince', 'yellow onion': 'finely chopped', 'celery stalk': 'thinley sliced', 'carrot (oz)': 'diced'},
+        'directions': """
+        
+        https://www.everyplate.com/recipes/creamy-couscous-pork-sausage-soup-63b48f568411c07ee20741e8
+        
+        """
     },
     'pg 16': {
         'ingredients': {'red bell pepper': 1, 'garlic clove': 1, 'cavatappi pasta (oz)': 1, 'chicken sausage (#)': 0.5, 'tomato paste (oz)': 1, 'garlic powder (tbsp)': 1, 'cream sauce base (oz)': 4},
@@ -184,7 +317,7 @@ instructions = {
         'prep': {'enchilada sauce (oz)': 'see cookbook', 'corn (oz)': 'see cookbook', 'black bean can (oz)': 'see cookbook', 'jalapeno': 'see cookbook', 'red onion': 'see cookbook', 'pablano': 'see cookbook', 'taco seasoning (tsp)': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded white cheddar cheese (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
         'directions': 'see cookbook'
     },
-    'R1': {
+    'R_1': {
         'ingredients': {'cream of chicken soup (can)': 1, 'tuna in water canned': 1, 'peas (oz)': 10, 'egg noodles': 1},
         'prep': {'cream of chicken soup (can)': 'see cookbook', 'tuna in water canned': 'see cookbook', 'peas (oz)': 'see cookbook', 'egg noodles': 'see cookbook'},
         'directions': 'see cookbook'
@@ -269,9 +402,10 @@ instructions = {
         'prep': {'potato (oz)': 'see cookbook', 'pablano': 'see cookbook', 'red onion': 'see cookbook', 'lime': 'see cookbook', 'bbq sauce (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'ground beef (#)': 'see cookbook', 'shredded cheddar cheese (oz)': 'see cookbook'},
         'directions': 'see cookbook'
     },
-    'pg 37': {'ingredients': {'potato': 10, 'yellow onion': 1, 'garlic clove': 1, 'demi-bagguette': 2, 'italian pork sausage (#)': 0.4, 'marinara sauce (oz)': 6, 'shredded monty jack (oz)': 3},
-    'prep': {'potato': 'see cookbook', 'yellow onion': 'see cookbook', 'garlic clove': 'see cookbook', 'demi-bagguette': 'see cookbook', 'italian pork sausage (#)': 'see cookbook', 'marinara sauce (oz)': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook'},
-    'directions': 'see cookbook'
+    'pg 37': {
+        'ingredients': {'potato': 10, 'yellow onion': 1, 'garlic clove': 1, 'demi-bagguette': 2, 'italian pork sausage (#)': 0.4, 'marinara sauce (oz)': 6, 'shredded monty jack (oz)': 3},
+        'prep': {'potato': 'see cookbook', 'yellow onion': 'see cookbook', 'garlic clove': 'see cookbook', 'demi-bagguette': 'see cookbook', 'italian pork sausage (#)': 'see cookbook', 'marinara sauce (oz)': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook'},
+        'directions': 'see cookbook'
     },
     'pg 38': {
         'ingredients': {'yukon gold potato (oz)': 10, 'panko (c)': 0.5, 'sweet and smokey bbq seasoning (tbsp)': 1, 'chicken breast (#)': 0.75, 'sour cream (oz)': 2, 'side green': 1, 'hot honey (oz)': 0.75},
@@ -283,9 +417,10 @@ instructions = {
         'prep': {'scallion': 'see cookbook', 'tex-mex paste (oz)': 'see cookbook', 'queso blanco (oz)': 'see cookbook', 'cream cheese (tbsp)': 'see cookbook', 'cornstarch (tbsp)': 'see cookbook', 'mexican cheese blend (oz)': 'see cookbook', 'cavatappi pasta (oz)': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook', 'panko (c)': 'see cookbook'},
         'directions': 'see cookbook'
     },
-    'pg 40': {'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 1, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
-    'prep': {'roma tomato': 'see cookbook', 'yellow onion': 'see cookbook', 'lime': 'see cookbook', 'garlic cloves': 'see cookbook', 'ground beef (#)': 'see cookbook', 'southwest spice blend': 'see cookbook', 'beef stock concentrate': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded mozzarella (oz)': 'see cookbook'},
-    'directions': 'see cookbook'
+    'pg 40': {
+        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 1, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
+        'prep': {'roma tomato': 'see cookbook', 'yellow onion': 'see cookbook', 'lime': 'see cookbook', 'garlic cloves': 'see cookbook', 'ground beef (#)': 'see cookbook', 'southwest spice blend': 'see cookbook', 'beef stock concentrate': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded mozzarella (oz)': 'see cookbook'},
+        'directions': 'see cookbook'
     },
     'pg 41': {
         'ingredients': {'yukon gold potato (oz)': 12, 'shallot': 1, 'rosemary': 1, 'lemon': 1, 'side green': 1, 'chicken breast (#)': 0.7, 'balsamic vinegar (oz)': 2, 'fig jam (tbsp)': 2, 'chicken stock concentrate': 1},
@@ -348,4 +483,3 @@ instructions = {
         'directions': 'see cookbook'
     }
 }
-
