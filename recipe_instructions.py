@@ -404,38 +404,67 @@ instructions = {
     },
     'pg 29': {
         'ingredients': {'chili garlic sauce (tsp)': 1, 'panko (c)': 0.13, 'toasted sesame oil (oz)': 0.25, 'sweet and sour sauce': 1, 'garlic sesame sauce (oz)': 1, 'peanuts (oz)': 0.5, 'green beans (oz)': 12, 'asian garlic, ginger, & chile seasoning (tsp)': 1, 'ground pork (#)': 0.7},
-        'prep': {'chili garlic sauce (tsp)': 'see cookbook', 'panko (c)': 'see cookbook', 'toasted sesame oil (oz)': 'see cookbook', 'sweet and sour sauce': 'see cookbook', 'garlic sesame sauce (oz)': 'see cookbook', 'peanuts (oz)': 'see cookbook', 'green beans (oz)': 'see cookbook', 'asian garlic, ginger, & chile seasoning (tsp)': 'see cookbook', 'ground pork (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'peanuts (oz)': 'Roughly chopped', 'green beans (oz)': 'Trim if needed'},
+        'directions': """
+
+        https://www.homechef.com/meals/general-tso-s-pork-meatballs-standard?srsltid=AfmBOooHFEO6mOupDoVtnPuL1OBF8CnB0xu7ccMUrn-RWqC0mjn44dPg
+
+        """
     },
     'pg 30': {
         'ingredients': {'spaghetti (oz)': 5, 'lemon': 1, 'flour (oz)': 1, 'grated parmesan (oz)': 0.5, 'chicken cutlet (#)': 0.7, 'roasted garlic and herb butter (oz)': 0.75, 'capers (oz)': 0.5, 'butter (oz)': 0.6, 'garlic pepper (tsp)': 2, 'shallot': 1},
-        'prep': {'spaghetti (oz)': 'see cookbook', 'lemon': 'see cookbook', 'flour (oz)': 'see cookbook', 'grated parmesan (oz)': 'see cookbook', 'chicken cutlet (#)': 'see cookbook', 'roasted garlic and herb butter (oz)': 'see cookbook', 'capers (oz)': 'see cookbook', 'butter (oz)': 'see cookbook', 'garlic pepper (tsp)': 'see cookbook', 'shallot': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'lemon': 'Halved', 'roasted garlic and herb butter (oz)': 'Mix up if needed', 'shallot': 'Halved and thinly sliced'},
+        'directions': """
+
+        https://www.homechef.com/meals/classic-chicken-cutlet-piccata?srsltid=AfmBOopNegQ_R8LcxdaB8m0peiXkilN8t6xbtsq0Zc0QGm-dtmP7gQC8
+
+        """
     },
     'pg 31': {
         'ingredients': {'chile and cumin rub (tsp)': 1, 'jasmine rice': 1, 'jalapeno': 1, 'lime': 1, 'adobo seasoning (tsp)': 1, 'chile lime butter (oz)': 0.8, 'shallot': 1, 'pineapple chunks (oz)': 2, 'corn (oz)': 3, 'steak strips (#)': 0.7},
-        'prep': {'chile and cumin rub (tsp)': 'see cookbook', 'jasmine rice': 'see cookbook', 'jalapeno': 'see cookbook', 'lime': 'see cookbook', 'adobo seasoning (tsp)': 'see cookbook', 'chile lime butter (oz)': 'see cookbook', 'shallot': 'see cookbook', 'pineapple chunks (oz)': 'see cookbook', 'corn (oz)': 'see cookbook', 'steak strips (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'jalapeno': 'Halve, seed, mince', 'lime': 'halve and juice', 'shallot': 'Minced', 'pineapple chunks (oz)': '1/4 in dice', 'corn (oz)': 'drain if canned'},
+        'directions': """
+
+        https://www.homechef.com/meals/chile-lime-sliced-steak-rice-bowl?srsltid=AfmBOoqtmi54Zy5mYHSls5i5yjSVeCg4EPs7OJr7MIRnvcnYHO_8mKn8
+
+        """
     },
     'pg 32': {
         'ingredients': {'yukon gold potato (oz)': 10, 'italian pork sausage (#)': 0.5, 'red bell pepper': 1, 'garlic powder (tbsp)': 0.5, 'dijon mustard (tbsp)': 1, 'ketchup': 1, 'italian seasoning': 1, 'yellow onion': 1, 'demi-baguette': 2, 'chicken stock concentrate': 1, 'shredded mozzarella (oz)': 3},
-        'prep': {'yukon gold potato (oz)': 'see cookbook', 'italian pork sausage (#)': 'see cookbook', 'red bell pepper': 'see cookbook', 'garlic powder (tbsp)': 'see cookbook', 'dijon mustard (tbsp)': 'see cookbook', 'ketchup': 'see cookbook', 'italian seasoning': 'see cookbook', 'yellow onion': 'see cookbook', 'demi-baguette': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'shredded mozzarella (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'yukon gold potato (oz)': '1/2 in wedges', 'red bell pepper': 'Thinly sliced', 'yellow onion': 'Halve and slice', 'demi-baguette': 'Cut like a hotdog bun'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/italian-pork-sausage-and-pepper-subs-5d8122173d53df49934db0cb
+
+        """
     },
     'pg 33': {
         'ingredients': {'corn (oz)': 3, 'scallion': 2, 'roma tomato': 1, 'pot-roast seasoning (tsp)': 1.5, 'arborio rice (oz)': 3.6, 'grated parmesan (oz)': 2, 'sour cream': 2, 'beef demi-glace (tsp)': 2, 'steak strips (#)': 0.7},
-        'prep': {'corn (oz)': 'see cookbook', 'scallion': 'see cookbook', 'roma tomato': 'see cookbook', 'pot-roast seasoning (tsp)': 'see cookbook', 'arborio rice (oz)': 'see cookbook', 'grated parmesan (oz)': 'see cookbook', 'sour cream': 'see cookbook', 'beef demi-glace (tsp)': 'see cookbook', 'steak strips (#)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'scallion': 'Thinly slice', 'roma tomato': 'Coarsely chop'},
+        'directions': """
+
+        https://www.homechef.com/meals/corn-and-steak-strip-risotto?srsltid=AfmBOoqYoESnPqQQ5HrtA7ZnfbE5UHpKBDCiftRCVgdZdOA78L47lN_f
+
+
+        """
     },
     'pg 34': {
         'ingredients': {'cream cheese (oz)': 1.5, 'yellow onion': 1, 'garlic clove': 2, 'potato (oz)': 12, 'kale': 1, 'chicken sausage (#)': 0.5, 'chicken stock concentrate': 1, 'italian seasoning': 1, 'sour cream (oz)': 2},
-        'prep': {'cream cheese (oz)': 'see cookbook', 'yellow onion': 'see cookbook', 'garlic clove': 'see cookbook', 'potato (oz)': 'see cookbook', 'kale': 'see cookbook', 'chicken sausage (#)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'italian seasoning': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'cream cheese (oz)': 'Set out to warm', 'yellow onion': 'Dice', 'garlic clove': 'Mince', 'potato (oz)': 'Dices small', 'kale': 'Remove large stems, chop roughly'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/hearty-chicken-sausage-and-kale-soup-6463942e8ab1333a8ca24bdd
+
+        """
     },
     'pg 35': {
         'ingredients': {'shredded red cabbage (oz)': 3, 'scallion': 2, 'cornstarch (tbsp)': 0.25, 'soy sauce (oz)': 0.2, 'brown stir fry sauce': 4, 'asian noodles (oz)': 10, 'sliced pork (#)': 0.7, 'sesame seeds (tsp)': 1, 'hot sauce (oz)': 0.25},
-        'prep': {'shredded red cabbage (oz)': 'see cookbook', 'scallion': 'see cookbook', 'cornstarch (tbsp)': 'see cookbook', 'soy sauce (oz)': 'see cookbook', 'brown stir fry sauce': 'see cookbook', 'asian noodles (oz)': 'see cookbook', 'sliced pork (#)': 'see cookbook', 'sesame seeds (tsp)': 'see cookbook', 'hot sauce (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'scallion': 'Thinly slice, keep whites and greens separated'},
+        'directions': """
+
+        https://www.homechef.com/meals/sliced-pork-lo-mein?srsltid=AfmBOoqedORhPH3aJ6YhDDW43-YNeE3WZebdplX4OI3Y4MlxLucwj-bX
+
+        """
     },
     'pg 36': {
         'ingredients': {'potato (oz)': 12, 'pablano': 1, 'red onion': 1, 'lime': 1, 'bbq sauce (oz)': 2, 'sour cream (oz)': 1, 'ground beef (#)': 0.5, 'shredded cheddar cheese (oz)': 1},
