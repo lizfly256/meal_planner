@@ -304,13 +304,21 @@ instructions = {
     },
     'pg 16': {
         'ingredients': {'red bell pepper': 1, 'garlic clove': 1, 'cavatappi pasta (oz)': 1, 'chicken sausage (#)': 0.5, 'tomato paste (oz)': 1, 'garlic powder (tbsp)': 1, 'cream sauce base (oz)': 4},
-        'prep': {'red bell pepper': 'see cookbook', 'garlic clove': 'see cookbook', 'cavatappi pasta (oz)': 'see cookbook', 'chicken sausage (#)': 'see cookbook', 'tomato paste (oz)': 'see cookbook', 'garlic powder (tbsp)': 'see cookbook', 'cream sauce base (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'red bell pepper': 'Halved', 'garlic clove': 'peeled, whole', 'cream sauce base (oz)': 'roux based cream sauce'},
+        'directions': """
+        
+        https://www.everyplate.com/recipes/creamy-tomato-chicken-sausage-cavatappi-67f297af23aa2ac244887e59?week=2025-W19
+        
+        """
     },
     'pg 17': {
         'ingredients': {'side green': 1, 'garlic clove': 1, 'italian seasoning': 1, 'panko (c)': 0.25, 'ciabatta': 1, 'chicken breast (#)': 0.6, 'sour cream (oz)': 1, 'marinara sauce (oz)': 3, 'shredded monty jack (oz)': 2},
-        'prep': {'side green': 'see cookbook', 'garlic clove': 'see cookbook', 'italian seasoning': 'see cookbook', 'panko (c)': 'see cookbook', 'ciabatta': 'see cookbook', 'chicken breast (#)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'marinara sauce (oz)': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep {'side green': 'prep as needed', 'garlic clove': 'minced'},
+        'directions': """
+        
+        https://www.everyplate.com/recipes/chicken-parm-6796fe23183b5afa145041da
+        
+        """
     },
     'pg 18': {
         'ingredients': {'enchilada sauce (oz)': 5, 'corn (oz)': 5, 'black bean can (oz)': 15, 'jalapeno': 1, 'red onion': 1, 'pablano': 1, 'taco seasoning (tsp)': 2, 'taco tortillas': 6, 'shredded white cheddar cheese (oz)': 2, 'sour cream (oz)': 2},
@@ -320,42 +328,74 @@ instructions = {
     'R_1': {
         'ingredients': {'cream of chicken soup (can)': 1, 'tuna in water canned': 1, 'peas (oz)': 10, 'egg noodles': 1},
         'prep': {'cream of chicken soup (can)': 'see cookbook', 'tuna in water canned': 'see cookbook', 'peas (oz)': 'see cookbook', 'egg noodles': 'see cookbook'},
-        'directions': 'see cookbook'
+        'directions': """
+        
+        Ask Rowan or look in his cookbook
+        
+        """"
     },
     'pg 19': {
-        'ingredients': {'potato (oz)': 12, 'garlic clove': 2, 'carrot (oz)': 3, 'celery stalk': 1, 'yellow onion': 1, 'dried thyme': 1, 'chicken stock concentrate': 1, 'sour cream (oz)': 1},
-        'prep': {'potato (oz)': 'see cookbook', 'garlic clove': 'see cookbook', 'carrot (oz)': 'see cookbook', 'celery stalk': 'see cookbook', 'yellow onion': 'see cookbook', 'dried thyme': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'potato (oz)': 12, 'tomato paste': 4, 'garlic clove': 2, 'carrot (oz)': 3, 'celery stalk': 1, 'yellow onion': 1, 'dried thyme': 1, 'chicken stock concentrate': 1, 'sour cream (oz)': 1},
+        'prep': {'potato (oz)': 'diced, 1/2 inch', 'garlic clove': 'minced', 'carrot (oz)': 'halved and sliced', 'celery stalk': 'sliced', 'yellow onion': 'diced'},
+        'directions': """
+        
+        https://www.hellofresh.com/recipes/pub-style-chicken-shepherds-pie-66cf65c9df3b8ec6a279e138
+        
+        """
     },
     'pg 20': {
         'ingredients': {'pablano': 1, 'taco seasoning (tsp)': 1, 'salsa verde (oz)': 12, 'scallion': 2, 'taco tortillas': 6, 'sour cream (oz)': 2, 'shredded mexican cheese blend (oz)': 2, 'cream cheese (oz)': 1},
-        'prep': {'pablano': 'see cookbook', 'taco seasoning (tsp)': 'see cookbook', 'salsa verde (oz)': 'see cookbook', 'scallion': 'see cookbook', 'taco tortillas': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'shredded mexican cheese blend (oz)': 'see cookbook', 'cream cheese (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'pablano': 'Halved and sliced into strips', 'scallion': 'Thinly slices, keeping greens and whites separate'},
+        'directions': '"""
+
+        https://www.homechef.com/meals/pulled-chicken-salsa-verde-taquitos?srsltid=AfmBOop3ZJ1bMVjaGyvvFg4YABvPwwmSw02bKDw7dpSgyzTIiLL7E8de
+
+        """
     },
     'pg 23': {
         'ingredients': {'basil pesto (oz)': 2, 'red pepper flakes (tsp)': 0.25, 'cream cheese (oz)': 1, 'chicken stock concentrate': 1, 'grated parmesan (oz)': 2, 'cooked chicken breast (#)': 1, 'cream sauce base (oz)': 4, 'grape tomatoes (oz)': 4, 'penne pasta (oz)': 5},
-        'prep': {'basil pesto (oz)': 'see cookbook', 'red pepper flakes (tsp)': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'grated parmesan (oz)': 'see cookbook', 'cooked chicken breast (#)': 'see cookbook', 'cream sauce base (oz)': 'see cookbook', 'grape tomatoes (oz)': 'see cookbook', 'penne pasta (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'cooked chicken breast (#)': 'Cook if needed', 'cream sauce base (oz)': 'from a Roux if from scratch', 'penne pasta (oz)': 'Cook based on box directions'},
+        'directions': """
+
+        https://www.homechef.com/meals/creamy-basil-pesto-chicken-pasta-4a22fd05-830d-4e57-a2ff-018288aec452?srsltid=AfmBOopRNAYwRKj4dlCPUDUkoxRurqmnRRLs8_1-hanf8zPDf6oZ0CT_
+
+        """
     },
     'pg 24': {
         'ingredients': {'potato (oz)': 10, 'green bell pepper': 1, 'yellow onion': 1, 'fry seasoning (tsp)': 3, 'bread (slice)': 1, 'ground beef (#)': 0.5, 'shredded pepper jack (oz)': 2, 'dijon mustard (tbsp)': 1},
-        'prep': {'potato (oz)': 'see cookbook', 'green bell pepper': 'see cookbook', 'yellow onion': 'see cookbook', 'fry seasoning (tsp)': 'see cookbook', 'bread (slice)': 'see cookbook', 'ground beef (#)': 'see cookbook', 'shredded pepper jack (oz)': 'see cookbook', 'dijon mustard (tbsp)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'potato (oz)': '1/2 inch wedges', 'green bell pepper': 'Halved and thinly sliced', 'yellow onion': 'Haled and thinly sliced'},
+        'directions': """
+
+        https://www.everyplate.com/recipes/smothered-and-stuffed-meatloaves-65cf6d9bb3001828bde57a28
+
+        """
     },
     'pg 25': {
-        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 1, 'garlic clove': 2, 'sour cream (oz)': 1, 'ground pork (#)': 0.7, 'southwest spice': 1, 'chicken stock concentrate': 1, 'taco tortillas': 6, 'shredded monty jack (oz)': 2},
-        'prep': {'roma tomato': 'see cookbook', 'yellow onion': 'see cookbook', 'lime': 'see cookbook', 'garlic clove': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'ground pork (#)': 'see cookbook', 'southwest spice': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded monty jack (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 0.5, 'garlic clove': 2, 'sour cream (oz)': 1, 'ground pork (#)': 0.7, 'southwest spice': 1, 'chicken stock concentrate': 1, 'taco tortillas': 6, 'shredded monty jack (oz)': 2},
+        'prep': {'roma tomato': 'Diced', 'yellow onion': 'Diced', 'lime': 'Quartered', 'garlic clove': 'Minced'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/southwest-pork-flautas-6462745106d34c35d66b7c7c
+
+        """
     },
     'pg 26': {
         'ingredients': {'yellow onion': 1, 'garlic clove': 2, 'potato (oz)': 12, 'jalapeno': 1, 'corn (oz)': 10, 'chicken stock concentrate': 1, 'cream cheese (oz)': 2, 'sour cream (oz)': 4},
-        'prep': {'yellow onion': 'see cookbook', 'garlic clove': 'see cookbook', 'potato (oz)': 'see cookbook', 'jalapeno': 'see cookbook', 'corn (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'cream cheese (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'yellow onion': 'Diced', 'garlic clove': 'Minced', 'potato (oz)': 'Diced, 1/2 inch', 'jalapeno': 'Finely chopped', 'corn (oz)': 'Drain and rinse if canned'},
+        'directions': """
+
+        https://www.everyplate.com/recipes/creamy-corn--bacon-chowder-64edf66813ca23109fd563e4
+
+        """
     },
     'pg 27': {
         'ingredients': {'jasmine rice': 1, 'green bell pepper': 1, 'ginger (nub)': 1, 'scallion': 1, 'garlic clove': 1, 'peanuts (oz)': 1, 'ground beef (#)': 0.5, 'sweet soy glaze (oz)': 2},
-        'prep': {'jasmine rice': 'see cookbook', 'green bell pepper': 'see cookbook', 'ginger (nub)': 'see cookbook', 'scallion': 'see cookbook', 'garlic clove': 'see cookbook', 'peanuts (oz)': 'see cookbook', 'ground beef (#)': 'see cookbook', 'sweet soy glaze (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'green bell pepper': 'Diced, 1 inch', 'ginger (nub)': 'Finely chopped', 'scallion': 'Thinly sliced, keeping whites and greens separated', 'garlic clove': 'Minced', 'peanuts (oz)': 'Roughly chopped'},
+        'directions': """
+
+        https://www.everyplate.com/recipes/kung-pao-beef-bowls-60141ffb9597422b24504bc4
+
+        """
     },
     'pg 28': {
         'ingredients': {'potato (oz)': 10, 'yellow onion': 1, 'roma tomato': 1, 'southwest spice': 1, 'chicken breast (#)': 0.7, 'burrito tortilla': 2},
