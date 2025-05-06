@@ -196,7 +196,7 @@ recipes = [
     },
     {
         'name': 'Cheesy Southwest Beef Tacodillas',
-        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 1, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
+        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 0.5, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
         'instructions': 'pg 40'
     },
     {
