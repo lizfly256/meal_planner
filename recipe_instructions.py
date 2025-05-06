@@ -468,8 +468,12 @@ instructions = {
     },
     'pg 36': {
         'ingredients': {'potato (oz)': 12, 'pablano': 1, 'red onion': 1, 'lime': 1, 'bbq sauce (oz)': 2, 'sour cream (oz)': 1, 'ground beef (#)': 0.5, 'shredded cheddar cheese (oz)': 1},
-        'prep': {'potato (oz)': 'see cookbook', 'pablano': 'see cookbook', 'red onion': 'see cookbook', 'lime': 'see cookbook', 'bbq sauce (oz)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'ground beef (#)': 'see cookbook', 'shredded cheddar cheese (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'potato (oz)': 'Dice, 1/2 inch', 'pablano': 'dice, 1/2 inch', 'red onion': 'halve, thinly slice half and dice half', 'lime': 'quarter'},
+        'directions': """
+
+        https://www.everyplate.com/recipes/cheesy-smokehouse-beef-hash-67845e3bf2efe8ce6099154a?week=2025-W07
+
+        """
     },
     'pg 37': {
         'ingredients': {'potato': 10, 'yellow onion': 1, 'garlic clove': 1, 'demi-bagguette': 2, 'italian pork sausage (#)': 0.4, 'marinara sauce (oz)': 6, 'shredded monty jack (oz)': 3},
@@ -478,8 +482,12 @@ instructions = {
     },
     'pg 38': {
         'ingredients': {'yukon gold potato (oz)': 10, 'panko (c)': 0.5, 'sweet and smokey bbq seasoning (tbsp)': 1, 'chicken breast (#)': 0.75, 'sour cream (oz)': 2, 'side green': 1, 'hot honey (oz)': 0.75},
-        'prep': {'yukon gold potato (oz)': 'see cookbook', 'panko (c)': 'see cookbook', 'sweet and smokey bbq seasoning (tbsp)': 'see cookbook', 'chicken breast (#)': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'side green': 'see cookbook', 'hot honey (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'yukon gold potato (oz)': 'Diece, 1/2 inch', 'side green': 'prep as needed '},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/hot-honey-chicken-5f999485d31ec3541e04fe18
+
+        """
     },
     'pg 39': {
         'ingredients': {'scallion': 2, 'tex-mex paste (oz)': 1, 'queso blanco (oz)': 3, 'cream cheese (tbsp)': 2, 'cornstarch (tbsp)': 1, 'mexican cheese blend (oz)': 2, 'cavatappi pasta (oz)': 6, 'shredded monty jack (oz)': 6, 'panko (c)': 0.5},
@@ -487,9 +495,13 @@ instructions = {
         'directions': 'see cookbook'
     },
     'pg 40': {
-        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 1, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
-        'prep': {'roma tomato': 'see cookbook', 'yellow onion': 'see cookbook', 'lime': 'see cookbook', 'garlic cloves': 'see cookbook', 'ground beef (#)': 'see cookbook', 'southwest spice blend': 'see cookbook', 'beef stock concentrate': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded mozzarella (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'roma tomato': 1, 'yellow onion': 1, 'lime': 0.5, 'garlic cloves': 2, 'ground beef (#)': 0.5, 'southwest spice blend': 1, 'beef stock concentrate': 1, 'taco tortillas': 6, 'shredded mozzarella (oz)': 3},
+        'prep': {'roma tomato': 'dice finely', 'yellow onion': 'dice finely', 'lime': 'quarter', 'garlic cloves': 'see cookbook', 'ground beef (#)': 'see cookbook', 'southwest spice blend': 'see cookbook', 'beef stock concentrate': 'see cookbook', 'taco tortillas': 'see cookbook', 'shredded mozzarella (oz)': 'see cookbook'},
+        'directions': """
+
+        https://www.everyplate.com/recipes/Cheesy%20Southwest%20Beef%20Tacodillas-64b56a8e83def1478e4f0a8e
+
+        """
     },
     'pg 41': {
         'ingredients': {'yukon gold potato (oz)': 12, 'shallot': 1, 'rosemary': 1, 'lemon': 1, 'side green': 1, 'chicken breast (#)': 0.7, 'balsamic vinegar (oz)': 2, 'fig jam (tbsp)': 2, 'chicken stock concentrate': 1},
