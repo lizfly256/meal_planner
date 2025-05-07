@@ -200,13 +200,13 @@ recipes = [
         'instructions': 'pg 40'
     },
     {
-        'name': 'Balsamic Frig Chicken',
+        'name': 'Balsamic Fig Chicken',
         'ingredients': {'yukon gold potato (oz)': 12, 'shallot': 1, 'rosemary': 1, 'lemon': 1, 'side green': 1, 'chicken breast (#)': 0.7, 'balsamic vinegar (oz)': 2, 'fig jam (tbsp)': 2, 'chicken stock concentrate': 1},
         'instructions': 'pg 41'
     },
     {
         'name': "Sweet 'N' Smokey Pork Tenderloin",
-        'ingredients': {'scallion': 1, 'white wine vinegar (oz)': 1, 'yukon gold potato (oz)': 12, 'smokey cinnamon paprika spice (tbsp)': 1, 'cherry jam (oz)': 1, 'carrot, shredded (oz)': 4, 'pork tenderloin (#)': 0.8, 'apple': 1, 'sour cream (oz)': 1},
+        'ingredients': {'scallion': 1, 'white wine vinegar (oz)': 1, 'yukon gold potato (oz)': 12, 'smokey cinnamon paprika spice (tbsp)': 1, 'cherry jam (oz)': 1, 'carrot (oz)': 4, 'pork tenderloin (#)': 0.8, 'apple': 1, 'sour cream (oz)': 1},
         'instructions': 'pg 42'
     },
     {
