@@ -505,28 +505,48 @@ instructions = {
     },
     'pg 41': {
         'ingredients': {'yukon gold potato (oz)': 12, 'shallot': 1, 'rosemary': 1, 'lemon': 1, 'side green': 1, 'chicken breast (#)': 0.7, 'balsamic vinegar (oz)': 2, 'fig jam (tbsp)': 2, 'chicken stock concentrate': 1},
-        'prep': {'yukon gold potato (oz)': 'see cookbook', 'shallot': 'see cookbook', 'rosemary': 'see cookbook', 'lemon': 'see cookbook', 'side green': 'see cookbook', 'chicken breast (#)': 'see cookbook', 'balsamic vinegar (oz)': 'see cookbook', 'fig jam (tbsp)': 'see cookbook', 'chicken stock concentrate': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'yukon gold potato (oz)': 'dice, 1/2 inch', 'shallot': 'mince', 'rosemary': 'remove stem (if fresh) and finely chop', 'lemon': 'quarter', 'side green': 'prep if needed'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/balsamic-fig-chicken-5eb19d14cd626b0b360327ee
+
+        """
     },
     'pg 42': {
-        'ingredients': {'scallion': 1, 'white wine vinegar (oz)': 1, 'yukon gold potato (oz)': 12, 'smokey cinnamon paprika spice (tbsp)': 1, 'cherry jam (oz)': 1, 'carrot, shredded (oz)': 4, 'pork tenderloin (#)': 0.8, 'apple': 1, 'sour cream (oz)': 1},
-        'prep': {'scallion': 'see cookbook', 'white wine vinegar (oz)': 'see cookbook', 'yukon gold potato (oz)': 'see cookbook', 'smokey cinnamon paprika spice (tbsp)': 'see cookbook', 'cherry jam (oz)': 'see cookbook', 'carrot, shredded (oz)': 'see cookbook', 'pork tenderloin (#)': 'see cookbook', 'apple': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'ingredients': {'scallion': 1, 'white wine vinegar (oz)': 1, 'yukon gold potato (oz)': 12, 'smokey cinnamon paprika spice (tbsp)': 1, 'cherry jam (oz)': 1, 'carrot (oz)': 4, 'pork tenderloin (#)': 0.8, 'apple': 1, 'sour cream (oz)': 1},
+        'prep': {'scallion': 'slice thinly', 'yukon gold potato (oz)': 'dice, 1/2 inch', 'carrot (oz)': 'shred'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/sweet-n-smoky-pork-tenderloin-5ea7100e77d519361f777cb4
+
+        """
     },
     'pg 43': {
         'ingredients': {'garlic clove': 2, 'yogurt (tbsp)': 4, 'shawarma spice blend (tbsp)': 1, 'chicken cutlet (#)': 0.7, 'zucchini': 1, 'roma tomato': 1, 'scallion': 2, 'lemon': 1, 'sour cream (oz)': 2, 'chicken stock concentrate': 1, 'turmeric (tsp)': 1, 'couscous (c)': 0.5, 'hummus (oz)': 2, 'hot sauce (tsp)': 1},
-        'prep': {'garlic clove': 'see cookbook', 'yogurt (tbsp)': 'see cookbook', 'shawarma spice blend (tbsp)': 'see cookbook', 'chicken cutlet (#)': 'see cookbook', 'zucchini': 'see cookbook', 'roma tomato': 'see cookbook', 'scallion': 'see cookbook', 'lemon': 'see cookbook', 'sour cream (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'turmeric (tsp)': 'see cookbook', 'couscous (c)': 'see cookbook', 'hummus (oz)': 'see cookbook', 'hot sauce (tsp)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'garlic clove': 'mince (divided)', 'chicken cutlet (#)': 'marinate in yogurt sauce (step 1) ahead of time if desired', 'zucchini': 'quarter lenghtwise and slice, 1/2 inch pieces', 'roma tomato': 'dice, 1 inch pieces', 'scallion': 'slice thinly', 'lemon': 'quarter'},
+        'directions': """
+        No hummus for Rowan
+        https://www.hellofresh.com/recipes/chicken-shawarma-bowls-5df00c74548621701c09295a
+        
+        """
     },
     'pg 44': {
         'ingredients': {'lime': 1, 'scallion': 2, 'mayo (oz)': 0.8, 'hot sauce (oz)': 0.5, 'slaw mix (oz)': 4, 'gochujang red pepper paste (tbsp)': 1, 'ginger (nub)': 1, 'taco tortilla': 6},
-        'prep': {'lime': 'see cookbook', 'scallion': 'see cookbook', 'mayo (oz)': 'see cookbook', 'hot sauce (oz)': 'see cookbook', 'slaw mix (oz)': 'see cookbook', 'gochujang red pepper paste (tbsp)': 'see cookbook', 'ginger (nub)': 'see cookbook', 'taco tortilla': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'lime': 'halve', 'scallion': 'slice thinly', 'ginger (nub)': 'mince'},
+        'directions': """
+
+        https://www.homechef.com/meals/korean-pork-tacos?srsltid=AfmBOopPdQbMdQXvlOXgTFr6CTRWEHw3GZaZ48seVJZr5BNoN4cTR_co
+
+        """
     },
     'pg 45': {
         'ingredients': {'scallion': 2, 'roma tomato': 1, 'lemon': 1, 'italian chicken sausage (#)': 0.5, 'italian seasoning': 1, 'spinach and cheese ravioli (oz)': 9, 'chicken stock concentrate': 1, 'sour cream (oz)': 2},
-        'prep': {'scallion': 'see cookbook', 'roma tomato': 'see cookbook', 'lemon': 'see cookbook', 'italian chicken sausage (#)': 'see cookbook', 'italian seasoning': 'see cookbook', 'spinach and cheese ravioli (oz)': 'see cookbook', 'chicken stock concentrate': 'see cookbook', 'sour cream (oz)': 'see cookbook'},
-        'directions': 'see cookbook'
+        'prep': {'scallion': 'slice thinly', 'roma tomato': 'dice', 'lemon': 'quarter'},
+        'directions': """
+
+        https://www.hellofresh.com/recipes/chicken-sausage-and-spinach-ravioli-5db88f3a508f707ab355cde4
+
+        """
     },
     'pg 46': {
         'ingredients': {'potato (oz)': 10, 'yellow onion': 1, 'garlic clove': 1, 'potato bun': 2, 'ground beef (#)': 0.6, 'dijon mustard (tbsp)': 2},
